@@ -3,13 +3,14 @@
 /**
  * print_alphabet - utilizes on the _putchar function to print
  *			the alphabet a - z
+ * Return: Always 0.
 */
 
 void print_alphabet(void)
 {
-	int ch;
+	char c;
 
-	for (ch = 'a'; ch < '2'; ch++)
-		_putchar(ch);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
 	_putchar('\n');
 }

@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdio.h>
 
@@ -19,4 +19,4 @@ void print_times_table(int n);
 
 
 
-#endif	
+#endif /* _MAIN_H_ */	

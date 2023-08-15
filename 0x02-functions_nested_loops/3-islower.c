@@ -6,13 +6,19 @@
  *
  * @c: checks input of function
  *
- * Return: retyrn 1 if 'c' is lowercase
+ * Return: 1 if 'c' is lowercase
  *		otherwise always 0 (success)
 */
 
 int _islower(int c)
 {
-	for (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
+	{
 		return (1);
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar ('\n');
 }

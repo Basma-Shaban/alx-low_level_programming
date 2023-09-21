@@ -16,6 +16,7 @@
 size_t print_list(const list_t *head)
 {
 	size_t nodes = 0;
+
 	while (head != NULL)
 {
 	if (head->str == NULL)
